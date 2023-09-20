@@ -1,113 +1,60 @@
-# React homework template
+# Easy RentalCAR
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+![Illustration Easy RentalCAR](./assets/easy-rental-car.png)<br/>
 
-## Создание репозитория по шаблону
+<p>&emsp;Rentalcars - this is a convenient application designed for those who search
+and compare car rental offers. Our application facilitates the process of
+choosing and booking a car by providing a wide selection of cars of various
+brands and models.</p>
 
-Используй этот репозиторий организации GoIT как шаблон для создания репозитория
-своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
-`«Create a new repository»`, как показано на изображении.
+## Main functionalities and possibilities
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+<p>&emsp;On the Home page you can see a slider with models of machines offered by our
+company. If you immediately like the car, you can click on the heart icon at the
+top right of the picture and this model will automatically be added to the
+Favorites page.</p>
 
-На следующем шаге откроется страница создания нового репозитория. Заполни поле
-его имени, убедись что репозиторий публичный, после чего нажми кнопку
-`«Create repository from template»`.
+![Slider](./assets/slider.png)
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+<p>&emsp;Navigating through the pages of the app: On the main screen at the top, you can
+link to the Catalog page or Favorite page, where you can browse available cars
+for rent.</p>
 
-После того как репозиторий будет создан, необходимо перейти в настройки
-созданного репозитория на вкладку `Settings` > `Actions` > `General` как
-показано на изображении.
+![Navigation](./assets/navigation.png)
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+<p>&emsp;Search and filtering: Rentalcars provides many parameters for searching for cars,
+such as brand, rental price, car mileage from and to. You can easily adjust the
+filters to find a car that meets your needs.</p>
 
-Проскролив страницу до самого конца, в секции `«Workflow permissions»` выбери
-опцию `«Read and write permissions»` и поставь галочку в чекбоксе. Это
-необходимо для автоматизации процесса деплоя проекта.
+![Filtering and search car](./assets/filters.png)
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+<p>&emsp;Detailed information: for a more detail description of the selected car, you can
+click the Learn more button. A modal window will open with detail information
+about the selected model.You can also add a model to the list of favorites by
+clicking on the heart at the top or remove it from the list of favorites by
+clicking on the heart again.</p>
 
-Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
-репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
-клонируй его себе на компьютер, пиши код, делай коммиты и отправляй их на
-GitHub.
+![Detail information](./assets/button-learn-more.png)
 
-## Подготовка к работе
+<p>&emsp;Modal window: you can read detail information about the car and if everything
+suits you, click the Rental car button, which will automatically connect you
+with the company by phone.</p>
 
-1. Убедись что на компьютере установлена LTS-версия Node.js.
-   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Установи базовые зависимости проекта командой `npm install`.
-3. Запусти режим разработки, выполнив команду `npm start`.
-4. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+![Detail modal](./assets/detail-modal.png)
 
-## Деплой
+<p>&emsp;View even more adverts you can by clicking the Load more button at the bottom of
+the Home page.</p>
 
-Продакшн версия проекта будет автоматически проходить линтинг, собираться и
-деплоиться на GitHub Pages, в ветку `gh-pages`, каждый раз когда обновляется
-ветка `main`. Например, после прямого пуша или принятого пул-реквеста. Для этого
-необходимо в файле `package.json` отредактировать поле `homepage`, заменив
-`your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
+![Detail modal](./assets/load-more.png)
 
-```json
-"homepage": "https://your_username.github.io/your_repo_name/"
-```
+<p>&emsp;On Favorite page you can view the selected car and see detail information about
+the car by clicking the Learn more button. You can remove car from the list of
+favorites by clicking on the heart at the top right. You can delete all cars
+from the list by clicking the Delete all button in the sidebar.</p>
 
-Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
-выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
-это небыло сделано автоматически.
+![Favorite Page](./assets/favorite-page.png)
 
-![GitHub Pages settings](./assets/repo-settings.png)
+## Link to the app
 
-### Статус деплоя
-
-Статус деплоя крайнего коммита отображается иконкой возле его идентификатора.
-
-- **Желтый цвет** - выполняется сборка и деплой проекта.
-- **Зеленый цвет** - деплой завершился успешно.
-- **Красный цвет** - во время линтинга, сборки или деплоя произошла ошибка.
-
-Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
-выпадающем окне перейти по ссылке `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-### Живая страница
-
-Через какое-то время, обычно пару минут, живую страницу можно будет посмотреть
-по адресу указанному в отредактированном свойстве `homepage`. Например, вот
-ссылка на живую версию для этого репозитория
-[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
-
-Если открывается пустая страница, убедись что во вкладке `Console` нет ошибок
-связанных с неправильными путями к CSS и JS файлам проекта (**404**). Скорее
-всего у тебя неправильное значение свойства `homepage` в файле `package.json`.
-
-### Маршрутизация
-
-Если приложение использует библиотеку `react-router-dom` для маршрутизации,
-необходимо дополнительно настроить компонент `<BrowserRouter>`, передав в пропе
-`basename` точное название твоего репозитория. Слеш в начале строки обязателен.
-
-```jsx
-<BrowserRouter basename="/your_repo_name">
-  <App />
-</BrowserRouter>
-```
-
-## Как это работает
-
-![How it works](./assets/how-it-works.png)
-
-1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
-   скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
-2. Все файлы репозитория копируются на сервер, где проект инициализируется и
-   проходит линтинг и сборку перед деплоем.
-3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
-   отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
-   скрипта будет указано в чем проблема.
+&emsp;To use the application, please follow the link
+[Car-rental-service](https://alokhin97.github.io/car-rental-service-3/).
