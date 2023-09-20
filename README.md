@@ -1,6 +1,6 @@
 # Easy RentalCAR
 
-![Illustration Easy RentalCAR](./assets/easy-rental-car.png)<br/>
+![Illustration Easy RentalCAR](./assets/tnhgrhtr.png)<br/>
 
 <p>&emsp;Rentalcars - this is a convenient application designed for those who search
 and compare car rental offers. Our application facilitates the process of
