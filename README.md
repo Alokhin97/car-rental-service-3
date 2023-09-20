@@ -1,4 +1,4 @@
-# Easy RentalCAR
+# Rentalcars
 
 ![Illustration Easy RentalCAR](./assets/tnhgrhtr.png)<br/>
 
